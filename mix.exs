@@ -22,7 +22,7 @@ defmodule PrometheusPhoenix.Mixfile do
   end
 
   def application do
-    [applications: [:logger, :prometheus_ex]]
+    [applications: [:logger, :prometheus_ex, :phoenix]]
   end
 
   defp description do
